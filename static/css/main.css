@@ -98,6 +98,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 800px;
 }
 
 .intro {
@@ -166,11 +167,20 @@ body {
     height: 100vh;
     background: rgb(213,248,253);
     background: linear-gradient(180deg, rgba(213,248,253,1) 47%, rgba(32,171,194,1) 100%);
+    position: relative;
+}
+
+.secondText {
+    font-family: 'Cafe24SsurroundAir';
 }
 
 .secondCarousel {
-    width: 800px;
-    height: 500px;
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* footer */
